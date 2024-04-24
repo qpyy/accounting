@@ -1,0 +1,47 @@
+.cost {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 670px;
+  font-size: 24px;
+}
+
+.cost button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.cost__description,
+.cost__item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.cost__description p {
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .cost {
+    justify-content: space-between;
+    width: 390px;
+    font-size: 24px;
+  }
+
+  .cost__description {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .cost__description p {
+    padding-right: 10px;
+  }
+
+  .cost__item {
+    padding-bottom: 60px;
+  }
+}

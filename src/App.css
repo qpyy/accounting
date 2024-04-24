@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url("/src/fonts/Roboto/Roboto-LightItalic.ttf") format("truetype"),
+    url("/src/fonts/Roboto/Roboto-Light.ttf") format("truetype"),
+    url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap")
+      format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

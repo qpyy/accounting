@@ -1,0 +1,54 @@
+.accounting-form {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 670px;
+}
+
+.accounting-form__input-amount,
+.accounting-form__input-place {
+  height: 46px;
+  width: 190px;
+  border: 1px solid #c0bfbf;
+  border-radius: 5px;
+  outline: none;
+}
+
+.accounting-form button {
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: #069a4b78;
+  cursor: pointer;
+}
+
+.accounting-form__input-place {
+  width: 320px;
+}
+
+.accounting-form p {
+  margin: 5px;
+  font-size: 14px;
+  color: #000000cc;
+}
+
+@media screen and (max-width: 600px) {
+  .accounting-form {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 395px;
+  }
+
+  .accounting-form__input-amount,
+  .accounting-form__input-place {
+    height: 46px;
+    width: 390px;
+  }
+
+  .accounting-form button {
+    margin-top: 10px;
+    padding: 10px 60px;
+  }
+}

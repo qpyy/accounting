@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  background-color: #c5e9ff;
+  padding-bottom: 50px;
+}
+
+.main h1 {
+  padding: 30px;
+  font-weight: 300;
+  font-size: 36px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 477px;
+    background-color: #c5e9ff;
+    padding-bottom: 30px;
+  }
+}

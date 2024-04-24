@@ -1,0 +1,12 @@
+.sum {
+  font-size: 24px;
+  padding: 20px;
+  margin-left: 450px;
+}
+
+@media screen and (max-width: 600px) {
+  .sum {
+    margin-left: 250px;
+    text-wrap: nowrap;
+  }
+}
